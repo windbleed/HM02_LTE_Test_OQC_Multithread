@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>  
+<Config>  
+  <InsertLossB1>3</InsertLossB1>
+  <InsertLossB8>2.5</InsertLossB8>   
+  <MaxLimit>25</MaxLimit>  
+  <MinLimit>17</MinLimit>     
+</Config>  

@@ -1,0 +1,43 @@
+QLIB_API unsigned char QLIB_DIAG_CONTROL_F(HANDLE hResourceContext, int eMode );
+
+ MODE_OFFLINE_A_F = 0,    //!<' Go to offline analog
+        MODE_OFFLINE_D_F = 1,    //!<' Go to offline digital
+        MODE_RESET_F = 2,        //!<' Reset. Only exit from offline
+        MODE_FTM_F = 3,          //!<' FTM mode
+        MODE_ONLINE_F = 4,       //!<' Go to Online
+        MODE_LPM_F = 5,          //!<' Low Power Mode (if supported)
+        MODE_POWER_OFF_F = 6,    //!<' Power off (if supported)
+        MODE_MAX_F = 7           //!<' Last (and invalid) mode enum value
+        
+        
+        
+QLIB_API unsigned char QLIB_FTM_SET_MODE( HANDLE hResourceContext, short eNewMode );  
+ 
+ 	PHONE_MODE_LTE_B1	   =34,	
+  	PHONE_MODE_LTE_B8=47,
+  
+QLIB_API unsigned char QLIB_FTM_LTE_SET_TX_BANDWIDTH( HANDLE hResourceContext, unsigned char itxChanBW );
+  
+     3 - RFCOM_BW_LTE_10MHz    
+     
+     
+QLIB_API unsigned char QLIB_FTM_LTE_SET_RX_BANDWIDTH( HANDLE hResourceContext, unsigned char irxChanBW );
+    
+     3 - RFCOM_BW_LTE_10MHz  
+     
+QLIB_API unsigned char QLIB_FTM_SET_CHAN( HANDLE hResourceContext, unsigned short iChannel);     
+
+QLIB_API unsigned char QLIB_FTM_SET_SECONDARY_CHAIN( HANDLE hResourceContext, unsigned short iMode );  
+ 
+ 
+QLIB_API unsigned char QLIB_FTM_LTE_SET_TX_MODULATION_TYPE( HANDLE hResourceContext, unsigned long iModulationType);
+
+QLIB_API unsigned char QLIB_FTM_SET_TX_ON( HANDLE hResourceContext );
+
+QLIB_API unsigned char QLIB_FTM_LTE_SET_TX_WAVEFORM( HANDLE hResourceContext, unsigned char iTxWaveform, unsigned char inumRBsPUSCH, unsigned char inumRBsPUCCH,unsigned char iPUSCHStartRBIndex );
+
+QLIB_API unsigned char QLIB_FTM_SET_PA_RANGE( HANDLE hResourceContext, unsigned short iPArange );
+
+QLIB_API unsigned char QLIB_FTM_SET_PA_STATE( HANDLE hResourceContext, unsigned char iPA_State, unsigned short* iFTM_Error_Code);
+
+ QLIB_API unsigned char QLIB_FTM_SET_TX_GAIN_INDEX( HANDLE hResourceContext, unsigned short iTxGainIndex);

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>  
+<Config>  
+  <InsertLoss>  
+    <B1>3</B1>  
+    <B8>2.5</B8>  
+  </InsertLoss>  
+  <Spec>  
+    <MaxLimit>25</MaxLimit>  
+    <MinLimit>25</MinLimit>  
+  </Spec> 
+  
+   
+</Config>  

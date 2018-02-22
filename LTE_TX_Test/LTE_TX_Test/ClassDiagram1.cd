@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LTE_TX_Test.Form1" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="LTE_TX_Test.Form1.RichMessageInvoke" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="LTE_TX_Test.Form1.ModeLabelInvoke" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>A0AAAAAGBaIAACAAEACAQAACAAAAAAECAIASBAAAAAE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="TestObj" />
+      <Field Name="CalibrateObj" />
+      <Field Name="ConfigureObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LTE_TX_Test.Program" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTE_TX_Test.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTE_TX_Test.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTE_TX_Test.Instrument" Collapsed="true">
+    <Position X="3.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEIAACABBgAAAIAIAAIAAgAAAgKAAAIkABEABgAAAA=</HashCode>
+      <FileName>Instrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTE_TX_Test.AutoTester" Collapsed="true">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAASAAAA=</HashCode>
+      <FileName>AutoTester.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="TCObj" />
+      <Field Name="ConfigurePara" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LTE_TX_Test.Calibrater" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAASAIAA=</HashCode>
+      <FileName>Calibrater.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ConfigurePara" />
+      <Field Name="TCObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LTE_TX_Test.DUT" Collapsed="true">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABRABBAAAAQBAAEggQBA4AAGAAEAoARhJEICgAoAABA=</HashCode>
+      <FileName>DUT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTE_TX_Test.SysConfigure" Collapsed="true">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAYAAAAAAEAAAAAAAAAAAAAAQEAAAAQABAAAAAA=</HashCode>
+      <FileName>SysConfigure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTE_TX_Test.TestControler" Collapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAAAAAAAAAQAAAgAAAAAAFAAAAQBAAA=</HashCode>
+      <FileName>TestControler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DUTObj" />
+      <Field Name="InstrumentObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

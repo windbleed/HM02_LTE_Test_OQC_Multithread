@@ -1,0 +1,10 @@
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\bin\Debug\LTE_TX_Test.exe
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\bin\Debug\LTE_TX_Test.pdb
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.Form1.resources
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.Properties.Resources.resources
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.csproj.GenerateResource.Cache
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.exe
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.pdb
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.csproj.ResolveComReference.cache
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\bin\Debug\Ivi.Visa.Interop.dll
+E:\works\HM02_LTE_Test_OQC\LTE_TX_Test\LTE_TX_Test\obj\x86\Debug\LTE_TX_Test.SettingForm.resources
